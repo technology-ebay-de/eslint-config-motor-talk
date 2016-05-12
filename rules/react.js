@@ -19,7 +19,7 @@ module.exports = {
         "react/jsx-boolean-value": [2, "never"],
         // Validate closing bracket location in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
-        "react/jsx-closing-bracket-location": [2, "line-aligned"],
+        "react/jsx-closing-bracket-location": [2, "after-props"],
         // Enforce or disallow spaces inside of curly braces in JSX attributes
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
         "react/jsx-curly-spacing": [0, "never", { "allowMultiline": true }],
@@ -29,11 +29,6 @@ module.exports = {
             "eventHandlerPrefix": "handle",
             "eventHandlerPropPrefix": "on"
         }],
-        // Validate props indentation in JSX
-        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-        // Note pahund 2016-05-12: commented this out because it got on everyone's nerve
-        // "react/jsx-indent-props": [2, 2],
-
         // Validate JSX has key prop when in array or iterator
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
         "react/jsx-key": 0,
