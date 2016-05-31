@@ -8,7 +8,8 @@ module.exports = {
         "ecmaFeatures": {
             "jsx": true,
             "generators": false,
-            "objectLiteralDuplicateProperties": false
+            "objectLiteralDuplicateProperties": false,
+            "experimentalObjectRestSpread": true
         }
     },
     "rules": {
