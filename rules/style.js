@@ -78,7 +78,7 @@ module.exports = {
         // disallow multiple empty lines and only one newline at the end
         "no-multiple-empty-lines": [2, { "max": 2, "maxEOF": 1 }],
         // disallow nested ternary expressions
-        "no-nested-ternary": 2,
+        "no-nested-ternary": 0,
         // disallow use of the Object constructor
         "no-new-object": 2,
         // disallow space between function identifier and application

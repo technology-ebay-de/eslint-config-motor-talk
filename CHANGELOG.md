@@ -26,3 +26,9 @@ a lot in Mocha tests.
 
 Added [experimentalObjectRestSpread](http://eslint.org/docs/1.0.0/user-guide/configuring), which is
 very useful for concise syntax in Redux code.
+
+1.0.5 / 2016-06-10
+==================
+
+Removed [no-nested-ternary](http://eslint.org/docs/rules/no-nested-ternary), can't really see what's
+supposed to be so confusing about those.
