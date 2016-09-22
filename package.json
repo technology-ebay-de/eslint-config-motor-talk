@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-motor-talk",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "Motor-Talk's ESLint config, following the mobile.de JavaScript styleguide",
   "main": "index.js",
   "scripts": {
