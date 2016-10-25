@@ -1,3 +1,9 @@
+3.0.0 / 2016-10-25
+==================
+
+* Increased [maximum line length](http://eslint.org/docs/rules/max-len) from 100 to 120 characters
+* Disabled [rule that enforces function names](http://eslint.org/docs/rules/func-names)
+
 2.0.0 / 2016-09-22
 ==================
 

@@ -17,7 +17,7 @@ module.exports = {
         // enforce newline at the end of file, with no multiple empty lines
         'eol-last': 2,
         // require function expressions to have a name
-        'func-names': 1,
+        'func-names': 0,
         // enforces use of function declarations or expressions
         'func-style': 0,
         // this option enforces minimum and maximum identifier lengths
@@ -47,7 +47,7 @@ module.exports = {
         'linebreak-style': 0,
         // specify the maximum length of a line in your program
         // https://github.com/eslint/eslint/blob/master/docs/rules/max-len.md
-        'max-len': [2, 100, 2, {
+        'max-len': [2, 120, 2, {
             'ignoreUrls': true,
             'ignoreComments': false
         }],
