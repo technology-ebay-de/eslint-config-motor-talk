@@ -3,6 +3,10 @@
 
 * Increased [maximum line length](http://eslint.org/docs/rules/max-len) from 100 to 120 characters
 * Disabled [rule that enforces function names](http://eslint.org/docs/rules/func-names)
+* Updated dependencies to latest and greatest:
+  * [Babel](http://babeljs.io/) 6
+  * [ESLint](http://eslint.org/) 3
+  * [React](https://facebook.github.io/react/) 15
 
 2.0.0 / 2016-09-22
 ==================
