@@ -1,3 +1,10 @@
+3.1.0 / 2016-11-22
+==================
+
+* Updated dependencies to latest minor versions
+* Cleaned up deprecation warnings
+* Tidied up peer dependencies
+
 3.0.0 / 2016-10-25
 ==================
 

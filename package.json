@@ -23,7 +23,7 @@
     "javascript",
     "styleguide"
   ],
-  "author": "Jake Teton-Landis (https://twitter.com/@jitl)",
+  "author": "Patrick Hund <pahund@team.mobile.de>",
   "contributors": [
     {
       "name": "Jake Teton-Landis",
@@ -49,17 +49,15 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "babel": "^6.0.0",
+    "babel-cli": "^6.18.0",
     "babel-preset-es2015": "^6.0.0",
     "babel-tape-runner": "^2.0.0",
-    "eslint": "^3.0.0",
-    "eslint-plugin-react": "^6.0.0",
+    "eslint": "^3.10.2",
+    "eslint-plugin-react": "^6.7.1",
     "parallelshell": "^2.0.0",
-    "react": "^15.0.0",
-    "tape": "^4.0.0"
+    "tape": "^4.6.3"
   },
   "peerDependencies": {
-    "eslint": "^3.0.0",
-    "eslint-plugin-react": "^6.0.0"
+    "eslint": ">=3.0.0"
   }
 }
