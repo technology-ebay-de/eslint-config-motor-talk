@@ -58,6 +58,7 @@
     "tape": "^4.6.3"
   },
   "peerDependencies": {
-    "eslint": ">=3.0.0"
+    "eslint": ">=3.0.0",
+    "eslint-plugin-react": ">=6.0.0"
   }
 }

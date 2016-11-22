@@ -1,3 +1,8 @@
+3.1.1 / 2016-11-22
+==================
+
+Bugfix, eslint-plugin-react peer dependency is necessary
+
 3.1.0 / 2016-11-22
 ==================
 
