@@ -13,7 +13,7 @@
     "url": "https://github.corp.ebay.com/motor-talk/eslint-config-motor-talk"
   },
   "publishConfig": {
-    "registry": "https://nexus.corp.mobile.de/nexus/content/groups/npm-all/"
+    "registry": "https://nexus.corp.mobile.de/nexus/content/repositories/npm-internal/"
   },
   "keywords": [
     "eslint",
