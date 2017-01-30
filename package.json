@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://sources.motortalk.biz/projects/GTC/repos/eslint-config-motor-talk/"
+    "url": "https://github.corp.ebay.com/motor-talk/eslint-config-motor-talk"
   },
   "publishConfig": {
-    "registry": "https://maven.motortalk.biz/nexus/content/repositories/mt-npm/"
+    "registry": "https://nexus.corp.mobile.de/nexus/content/groups/npm-all/"
   },
   "keywords": [
     "eslint",
@@ -37,10 +37,6 @@
     {
       "name": "Harrison Shoff",
       "url": "https://twitter.com/hshoff"
-    },
-    {
-      "name": "Patrick Hund",
-      "email": "pahund@team.mobile.de"
     },
     {
       "name": "Jonathan Krause",
