@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-motor-talk",
-  "version": "3.1.1",
-  "description": "Motor-Talk's ESLint config, following the mobile.de JavaScript styleguide",
+  "version": "4.0.0",
+  "description": "ESLint configuration for the MOTOR-TALK.de platform",
   "main": "index.js",
   "scripts": {
     "lint": "node_modules/.bin/eslint .",

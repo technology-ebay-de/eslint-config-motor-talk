@@ -1,3 +1,9 @@
+4.0.0 / 2017-08-07
+==================
+
+* Open Source release on GitHub.com
+* Compatibility with ESLint 4
+
 3.1.1 / 2016-11-22
 ==================
 
