@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-motor-talk",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "ESLint configuration for the MOTOR-TALK.de platform",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.corp.ebay.com/motor-talk/eslint-config-motor-talk"
+    "url": "https://github.com/technology-ebay-de/eslint-config-motor-talk/"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

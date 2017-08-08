@@ -1,3 +1,8 @@
+4.0.1 / 2017-08-08
+==================
+
+* Fixed incorrect repository info in package.json
+
 4.0.0 / 2017-08-07
 ==================
 
