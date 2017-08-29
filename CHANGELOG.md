@@ -1,3 +1,8 @@
+4.0.2 / 2017-08-29
+==================
+
+* Fixed deprecation warning, using `react/jsx-tag-spacing` instead of `react/jsx-space-before-closing`
+
 4.0.1 / 2017-08-08
 ==================
 
