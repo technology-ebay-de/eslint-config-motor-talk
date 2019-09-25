@@ -7,8 +7,11 @@ const cli = new CLIEngine({
     useEslintrc: false,
     baseConfig: eslintrc,
 
-    // This rule fails when executing on text.
-    rules: { indent: 0 }
+    // These rules fail when executing on text.
+    rules: {
+        indent: 0,
+        'padded-blocks': 0
+    }
 });
 
 function lint(text) {
@@ -45,7 +48,6 @@ test('validate react prop order', t => {
   renderDogs() {}
   render() { return <div />; }
 `));
-
         t.notOk(result.warningCount, 'no warnings');
         t.notOk(result.errorCount, 'no errors');
         t.deepEquals(result.messages, [], 'no messages in results');

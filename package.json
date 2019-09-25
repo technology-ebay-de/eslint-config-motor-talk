@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-motor-talk",
-  "version": "5.0.0",
+  "version": "5.0.1-beta.0",
   "description": "ESLint configuration for the MOTOR-TALK.de platform",
   "main": "index.js",
   "scripts": {
     "lint": "node_modules/.bin/eslint .",
     "tests-only": "node_modules/.bin/babel-tape-runner ./test/test-*.js",
-    "test": "parallelshell 'npm run lint' 'npm run tests-only'"
+    "test": "npm-run-all --parallel lint tests-only"
   },
   "repository": {
     "type": "git",
@@ -50,7 +50,7 @@
     "babel-tape-runner": "^2.0.0",
     "eslint": "^4.6.1",
     "eslint-plugin-react": "^7.4.0-rc.1",
-    "parallelshell": "^2.0.0",
+    "npm-run-all": "^4.1.5",
     "tape": "^4.6.3"
   },
   "peerDependencies": {
