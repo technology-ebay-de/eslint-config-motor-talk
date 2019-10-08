@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-motor-talk",
-  "version": "5.0.1-beta.0",
+  "version": "5.0.1",
   "description": "ESLint configuration for the MOTOR-TALK.de platform",
   "main": "index.js",
   "scripts": {
